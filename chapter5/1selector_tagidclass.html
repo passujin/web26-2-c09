@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>1selector_tagidclass</title>
+    <style>
+        /* {color:aqua;}
+        h1{color:red;}
+        p{color:blue;} 
+
+        h1, p{color:yellowgreen;}*/
+
+        #header{
+            width : 800px; margin: 0 auto;
+            background: red;
+        }
+        #wrap{
+            width: 800px; margin: 0 auto;
+            overflow: hidden;
+        }
+        #aside{
+            width:200px; float: left;
+            background: blue;
+
+        }
+        #content{
+            width:600px; float: left;
+            background: green;
+        }
+        #rint{color: red;}
+
+        .select {color:skyblue;}
+        li.select{color:purple;}
+        /* class="item header"
+        .item {color:red;}
+        .header{background-color:blue;}*/
+    </style>
+</head>
+<body>
+    <!--id속성을 중복 사용하면 해달 id속성을 표시한 모든 태그에 스타일을 적용 하지만, 문제 발생 소지 있음. ==> Class-->
+    <h2>1. 전체 선택자</h2>
+    <h2>2. 태그 선택자</h2>
+    <h2>3. 아이디 선택자</h2>
+    <h2>4. 클래스 선택자</h2>
+    <hr>
+
+    <h1 class="item header">동해물과 백두산이</h1>
+    <hr>
+    <ul>
+        <li class="select">사과</li>
+        <li>바나나</li>
+        <li>오렌지</li>
+        <li class="select">감</li>
+    </ul>
+
+    <div id="header">
+        <h1>#header 태그</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>#aside 태그</h1>
+        </div>
+        <div id="content">
+            <h1>#content 태그</h1>
+        </div>
+    </div>
+    <h1>제목 글자</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</body>
+</html>
