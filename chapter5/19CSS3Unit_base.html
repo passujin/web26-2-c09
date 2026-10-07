@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>19CSS3Unit_base</title>
+    <style>
+        /*1. %단위 적용하기
+        참고>> 순서 바꾼 이유: nth-child()는 <p>만 세는 게 아니라, 같은 부모 아래의 모든 형제 요소를 세기 때문*/
+        /*p:nth-child(1){}
+        p:nth-child(2){font-size:100%}
+        p:nth-child(3){font-size:150%}
+        p:nth-child(4){font-size:200%}*/
+        
+        /*2. em 단위 적용하기
+       /* p:nth-child(1){}
+        p:nth-child(2){font-size:1.0em}
+        p:nth-child(3){font-size:1.5em}
+        p:nth-child(4){font-size:2.0em}*/
+        
+        /*3. px 단위 적용하기*/
+        p:nth-child(1){}
+        p:nth-child(2){font-size:16px}
+        p:nth-child(3){font-size:24px}
+        p:nth-child(4){font-size:32px}
+
+        /*색상 단위*/
+        h1{background-color: rgb(255,255,0);} /*RGB색상*/
+        h2{background-color: rgba(103,17,17,0.806);} /*RGB색상: 알파값은 투명도. 0완전투명, 1.0완전 불투명 상태*/
+        h3{background-color: #0095ff;} /*HEX코드: RGB색상단위를 짧게 입력하는 방법으로 RGB색상조합을 #000000같은 16진수 사용*/
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+
+    <h1>ch05. CSS기초: 선택자와 단위</h1>
+    <h2>6. CSS3 단위</h2>
+    <h3>6.1 키워드 단위:W3C에서 미리 정의한 단어</h3>
+    <h3>6.2 크기 단위</h3>
+    <h3>6.3 색상단위</h3>
+
+</body>
+</html>
