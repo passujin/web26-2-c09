@@ -7,95 +7,50 @@
         a {
         text-decoration: none;
         }
-        /* 기본 */
-        * { box-sizing: border-box; }
         body {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 40px 48px;
-            background: #ffffff;
-            font-family: 'Pretendard', '맑은 고딕', 'Malgun Gothic', sans-serif;
-            font-size: 22px;
-            font-weight: 600;
-            color: #2b2b3a;
-            border-radius: 20px;
-            box-shadow: 0 10px 40px rgba(90, 80, 160, 0.15);
-            line-height: 1.6;
+            width: 600px;
+            margin: 30px auto;
+            padding: 20px 30px;
+            background-color: #f4f8fc;
+            font-family: "맑은 고딕", sans-serif;
+            line-height: 1.8;
         }
-        html {
-            background: linear-gradient(135deg, #e9e4ff 0%, #fde2ee 100%);
-            min-height: 100%;
-        }
-
-        /* 구분선 */
-        hr {
-            border: none;
-            height: 3px;
-            margin: 20px 0 10px;
-            background: linear-gradient(90deg, #8b7cf6, #f472b6);
-            border-radius: 3px;
-        }
-
-        /* 챕터 제목 */
         h2 {
-            margin: 32px 0 12px;
-            padding-left: 12px;
-            font-size: 20px;
-            color: #5b4bd6;
-            border-left: 5px solid #8b7cf6;
+            color: #2c5c9a;
+            border-bottom: 2px solid #2c5c9a;
+            padding-bottom: 5px;
+            margin-top: 30px;
         }
-
-        /* 링크 사이 줄바꿈 대신 버튼처럼 나란히 */
-        br { display: none; }
-
         a {
-            display: inline-block;
-            margin: 0 6px 8px 0;
-            padding: 6px 14px;
-            font-size: 14px;
-            font-weight: 500;
-            color: #4a4a5e;
-            background: #f4f2ff;
-            border: 1px solid #e0dbff;
-            border-radius: 999px;
-            text-decoration: none;
-            transition: all 0.2s;
+            color: #333;
         }
         a:hover {
-            color: #ffffff;
-            background: #8b7cf6;
-            border-color: #8b7cf6;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 10px rgba(139, 124, 246, 0.35);
+            color: #2c5c9a;
+            font-weight: bold;
         }
-
-        /* 푸터 */
+        hr {
+            border: 1px solid #aac4e0;
+        }
         footer {
             margin-top: 40px;
-            padding-top: 16px;
-            border-top: 1px solid #eee;
             text-align: center;
-        }
-        footer p {
-            font-size: 13px;
-            font-weight: 400;
-            color: #888;
-        }
-
-        /* 휴대폰 화면 */
-        @media screen and (max-width: 767px) {
-            body {
-                margin: 0;
-                padding: 24px 16px;
-                border-radius: 0;
-                font-size: 18px;
-            }
+            font-size: 14px;
+            color: #666;
         }
     </style>
 </head>
 <body>
     sujin의 홈페이지에 오신 것을 환영합니다.<br>
     <hr>
+
+    <h2>Chapter2</h2>
+    <a href="chapter2/01HTMLPage.html">01HTMLPage.html</a><br>
+    <a href="chapter2/01comment.html">01comment.html</a><br>
+    <a href="chapter2/02HTMLPageWithStyle.html">02HTMLPageWithStyle.html</a><br>
+    <a href="chapter2/04HTMLPageWithLink.html">04HTMLPageWithLink.html</a><br>
+    <a href="chapter2/07HTMLPageWithOuterScript.html">07HTMLPageWithOuterScript.html</a><br>
+    <a href="chapter2/08HTMLPageWithError.html">08HTMLPageWithError.html</a><br>
+    
     <h2>Chapter3</h2>
     <a href="chapter3/1text_header.html">1text_header.html</a><br>
     <a href="chapter3/3text_content.html">3text_content.html</a><br>
@@ -129,7 +84,7 @@
     <a href="chapter_6/5border_basic.html">5border_basic.html</a><br>
     <a href="chapter_6/8display_none.html">8display_none.html</a><br>
     <a href="chapter_6/12display_inlineWithMargin.html">12display_inlineWithMargin.html</a><br>
-    <a href="chapter_6/13display_inline-blockWithhMargin.html">13display_inline-blockWithhMargin.html</a><br>
+    <a href="chapter_6/13display_inline-blockWithMargin.html">13display_inline-blockWithMargin.html</a><br>
     <a href="chapter_6/14background_image.html">14background_image.html</a><br>
     <a href="chapter_6/19background_repeatNone.html">19background_repeatNone.html</a><br>
     <a href="chapter_6/24font_size.html">24font_size.html</a><br>
@@ -165,9 +120,7 @@
 
     <h2>Week9종합예제</h2>
     <!--블로그 html-->
-    <a href="week9/blog.html">blog.html</a><br>
-    <!--블로그 css-->
-    <a href="week9/blog_css.html">blog_css.html</a><br>
+    <a href="week9/blog_html_css.html">blog_html_css.html</a><br>
     <footer>
     <p>학번: 2026101569 | 이름: 이수진</p>
     </footer>
